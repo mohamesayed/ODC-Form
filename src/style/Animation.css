@@ -1,0 +1,52 @@
+:root {
+    --white: #fff;
+    --orange-digital: #ff7900;
+}
+
+
+/* .animation {
+    margin-top: 200px;
+    border: 1px solid #ff7900;
+    border-radius: 50%;
+} */
+
+.animation h1 {
+    font-size: 58px;
+    margin-left: 8px;
+    color: var(--orange-digital);
+}
+
+.load {
+    animation-duration: 0.7s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changewidth {
+    from {
+        border-bottom: 3px solid #ff7900;
+        border-right: 3px solid #ff7900;
+        border-left: 3px solid #ff7900;
+    }
+    to {
+        border-bottom: 3px solid #ff790000;
+        border-right: 3px solid #ff790000;
+        border-left: 3px solid #ff790000;
+    }
+}
+
+
+/* .border {
+    max-width: 450px;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.module {
+    background: #222;
+    color: white;
+    padding: 40px;
+} */

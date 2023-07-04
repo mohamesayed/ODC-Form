@@ -1,0 +1,18 @@
+/* start admission */
+
+.consent {
+    position: relative;
+}
+
+.consent input {
+    margin-bottom: 10px;
+}
+
+.consent .arrow {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+
+/* end admission */
